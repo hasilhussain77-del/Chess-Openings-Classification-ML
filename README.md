@@ -63,10 +63,18 @@ According to the analysis in the report :contentReference[oaicite:0]{index=0}:
 - Matplotlib  
 - Google Colab
 
-[View Full Report 👉](report/chess_opening_classification_report.pdf)
-[csv file 👉](csv_chess_openings/openings.csv)
-[decision tree png 👉](png/decision_tree.png)
-[Python code 👉](python_code/chess_opening_analysis.py)
+[👉 View Full Report](report/chess_opening_classification_report.pdf)
+
+
+[👉 csv file](csv_chess_openings/openings.csv)
+
+
+[👉 decision tree png](png/decision_tree.png)
+
+
+[👉 Python code](python_code/chess_opening_analysis.py)
+
+
 
 Decision tree -- Image
 ![Decision Tree](png/decision_tree.png)
