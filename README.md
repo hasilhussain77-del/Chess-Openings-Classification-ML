@@ -3,13 +3,12 @@
 ## Overview
 This project analyzes chess openings and their impact on game outcomes using a Decision Tree classification model. The study uses real-world data from Lichess to identify patterns between openings and match results, providing a data-driven approach to understanding opening effectiveness.
 
----
+
 
 ## Objective
 - To classify chess game outcomes (White win or Black win) based on the opening played  
 - To identify the most influential openings affecting game results  
 
----
 
 ## Dataset
 - Source: Lichess PGN Database  
@@ -20,7 +19,6 @@ This project analyzes chess openings and their impact on game outcomes using a D
 
 Draws were removed and results were converted into binary format.
 
----
 
 ## Methodology
 
@@ -41,7 +39,6 @@ Draws were removed and results were converted into binary format.
 - F1-score  
 - Confusion Matrix  
 
----
 
 ## Results and Analysis
 
@@ -58,15 +55,18 @@ According to the analysis in the report :contentReference[oaicite:0]{index=0}:
 - Most openings show a higher probability of White wins  
 - Slav Defense shows more balanced outcomes  
 
----
 
 ## Tools and Technologies
 - Python  
 - Pandas  
 - Scikit-learn  
 - Matplotlib  
-- Google Colab  
+- Google Colab
 
----
+[View Full Report 👉](report/chess_opening_classification_report.pdf)
+[csv file 👉](csv_chess_openings/openings.csv)
+[decision tree png 👉](png/decision_tree.png)
+[Python code 👉](python_code/chess_opening_analysis.py)
+
 Decision tree -- Image
 ![Decision Tree](png/decision_tree.png)
